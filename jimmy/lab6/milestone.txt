@@ -1,0 +1,25 @@
+1. Basic structure(10pts)
+	a. Board-int board[8][8]
+	b. Pieces - we must have the pieces defined somehow so that we can 
+	recognize them
+	-Everything else depands on the existence fo those two parts
+	-we need a const array to hold the starting position of a chess 
+	game. and we call them by names rather than calling them with 
+	values.
+	-a function that sets up the board of the start of a game
+	-Important! we need an input info from the user with function 
+	getline().
+2. Piece move generation(10pts)
+	a.need an array(we need four containers for each move)
+	b. index the movements with z to follow up how many moves that 
+	players have made
+	-each pieces have their unique movements and note that it is 
+	important to use break; after each case, because it would start 
+	generating moves for the last piece found as something it isn't.
+3. Gamefunctions(20pts)
+	a.checkmate
+	-it is assumed that the AI will play all the way until it is finally 
+	checkmated. Therefore, checkmate functgino is important.
+	-the concept of function will involve that the final string contains 
+	1 move or more the gams is till in progress, we check to see if our 
+	king is in check and the nplayer to move is checkmated.
