@@ -1,0 +1,24 @@
+Jimmy Gam
+901763430
+
+For this lab, over the break, I tried to set up my chess game with board and each pieces. This is very similar to lab1 when we set board for the connect 4 and I followed through what I did for the lab. In order to run my code, simply after compiling it, I do chess to run the game.
+
+I used a 8 x 8 board wiht integers. In setting this up, I simply did int board[8][8] and used a function void setup(). This function sets board[i][j] and increases with two for loops for both i and j. After this, I worked on my pieces to be defined and to recognize them. The pieces must have the same type as the board and I used const int pawn = 100; bishp = 305; knight = 300; and so on. This value simply indicates how important each pieces is to the game play. This also allows me to call them by their names rather than their values. In my main, I call setup() to set up the board vefore play starts and set a while loop that would ultimately go forever, if it were not for a break statemtn that is activated when the user types quit or exit. Finally, I used the string passed functrion getline() to passin moves of the users. I also included if statement to maek sure both suqares are on the chess board when executing a move and display new board position.
+
+In order to test my code, I had to run it bunch of times. Before, I had an idea that this should not take that long but as I was coding, I treid to come up with a new way which I had not taken in previous lab 1. Therefore, I had a lot of loops here and there. For example, the if statement at the end to display the board and ask for a new game was advanced than before because it actually takes in the values and implements required actions for different inputs. Of course, I had to run it after new ideas and checked to see if they all ran in a desired way.
+
+my time log for the lab is the following.
+3/15 2:00PM-3:30PM
+3/16 2:00PM-3:00PM
+3/17 11:00AM-12:30PM
+3/20 4:00PM-5:00PM
+
+total of 5 hours.
+
+The link to my repository: 
+https://github.com/jgam/Data-Structure-project
+
+The http: https://github.com/jgam/Data-Structure-project.git
+
+In case, you guys do not have access to my repository, I uploaded my 
+code in the drop box as well.
