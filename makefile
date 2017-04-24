@@ -21,6 +21,3 @@ Piece.o : Piece.cpp Piece.h
 	g++ -c Piece.cpp
 
 clean : rm *.*~
-
-# Clint Goodman
-# Bro Comeau, CS 165
