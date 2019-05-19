@@ -6,7 +6,7 @@ using namespace std;
 
 int main()//main runs the Game
 {
-   Game myGame;
+   Game myGame; 
    myGame.createGame();
 
    cout << endl;
