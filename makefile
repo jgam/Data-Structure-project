@@ -2,6 +2,7 @@ a.out: Game.o Board.o Player.o Interface.o Square.o Piece.o
 	g++ -o a.out Game.o Board.o Player.o Interface.o Square.o Piece.o
 	tar -cf Chess.tar *.cpp *.h makefile
 
+
 Game.o : Game.cpp Game.h
 	g++ -c Game.cpp
 
