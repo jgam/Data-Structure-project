@@ -26,3 +26,4 @@ clean : rm *.*~
 # Clint Goodman
 # Bro Comeau, CS 165
 # this crazy;
+# hope it will
