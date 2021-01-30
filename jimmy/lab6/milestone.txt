@@ -1,6 +1,6 @@
 1. Basic structure(10pts)
 	a. Board-int board[8][8]
-	b. Pieces - we must have the pieces defined somehow so that we can 
+	b. Pieces - we must have the pieces defined somehow so that we cann 
 	recognize them
 	-Everything else depands on the existence fo those two parts
 	-we need a const array to hold the starting position of a chess 
