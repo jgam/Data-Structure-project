@@ -8,7 +8,7 @@
 
 using namespace std;
 
-void Board::display()//simple function that displays the board.
+void Board::display()//simple function that displays the board...
 {
    display(true);
 }
